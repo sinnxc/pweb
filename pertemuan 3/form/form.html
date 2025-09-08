@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Latihan Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="/action_page.php">
+            <div class="container">
+                <h1>Register Form</h1>
+
+                <label for="fisrt-name"><b>First Name:</b></label>
+                <input type="text" name="first-name" id="first-name" required>
+                <label for="last-name"><b>Last Name:</b></label>
+                <input type="text" name="last-name" id="last-name" required>
+                <label for="email"><b>Email:</b></label>
+                <input type="text" name="email" id="email" required>
+                <label for="psw"><b>Password:</b></label>
+                <input type="password" name="psw" id="psw" required>
+                <label for="psw-retype"><b>Re-type Password:</b></label>
+                <input type="password" name="psw-retype" id="psw-retype" required>
+                <label for="contact"><b>Contact:</b></label>
+                <input type="text" name="contact" id="contact" required>
+                <label for="gender"><b>Gender:</b></label>
+                <select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+
+                <button type="submit" class="registerbtn">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
