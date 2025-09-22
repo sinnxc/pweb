@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postal Code Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pencarian Kode Pos</h1>
+        <form id="postalCodeForm">
+            <label for="province">Provinsi:</label>
+            <select id="province" required>
+                <option value="">Pilih Provinsi</option>
+                <option value="Jawa Barat">Jawa Barat</option>
+                <option value="Jawa Timur">Jawa Timur</option>
+                <option value="DKI Jakarta">DKI Jakarta</option>
+            </select>
+
+            <label for="city">Kota/Kabupaten:</label>
+            <select id="city" required>
+                <option value="">Pilih Kota/Kabupaten</option>
+            </select>
+
+            <label for="subdistrict">Kecamatan:</label>
+            <select id="subdistrict" required>
+                <option value="">Pilih Kecamatan</option>
+            </select>
+
+            <button type="submit">Cari</button>
+        </form>
+        <div id="result" class="result">
+            <h2>Hasil:</h2>
+            <p id="postalCode"></p>
+            <p id="areaInfo"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

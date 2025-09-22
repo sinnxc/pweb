@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Form Registrasi</h1>
+        <form id="registrationForm">
+            <label for="nama">Nama Mahasiswa:</label>
+            <input type="text" id="nama" name="nama" autocomplete="off">
+            <ul id="namaSuggestions" class="suggestions"></ul>
+            
+            <label for="nrp">NRP:</label>
+            <input type="text" id="nrp" name="nrp">
+            
+            <label for="mataKuliah">Mata Kuliah:</label>
+            <input type="text" id="mataKuliah" name="mataKuliah">
+            
+            <label for="dosen">Dosen:</label>
+            <input type="text" id="dosen" name="dosen">
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
