@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #74d6dd;
+}
+
+.hero {
+    background-color: #0056b3;
+    height: 80vh;
+}
+
+.hero h1, .hero p {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+.footer {
+    background: #007bff;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
